@@ -4,3 +4,4 @@ pygments
 markdown-it-py
 mdurl
 altair==4.2.0
+fpdf==1.7.2
