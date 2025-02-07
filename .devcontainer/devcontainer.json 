@@ -1,0 +1,15 @@
+{
+  "name": "Python 3 & Streamlit App",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.autoComplete.extraPaths": ["/usr/local/lib/python3.8/site-packages"]
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-azuretools.vscode-docker"
+  ],
+  "forwardPorts": [8501],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "remoteUser": "vscode"
+}
